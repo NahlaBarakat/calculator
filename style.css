@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    background-image: url("image/Designs\ for\ School\ Works.jpg");
+    
+}
+.leave01{
+    width: 100px;
+    height: 100px;
+    border-top-left-radius:70% 60% ;
+    border-bottom-right-radius:70% 60%;
+    -moz-border-top-left-radius:70% 50%;
+    -moz-border-bottom-right-radius:70% 50%;
+    background-color: teal;
+}
+.container{
+       width: 50%;
+       height: 500px;
+       background-color: rgb(252, 192, 80);
+       border-radius: 30% 0 30% 0;
+      
+       padding: 80px;
+       
+       animation: my-anemi 5s infinite;
+       
+    
+}
+#Answer{
+   display: block;
+   width: 90%;
+   height: 50px;
+   border-radius: 30% 0 30% 0;
+   border-color: rgb(248, 50, 50);
+   background-color: transparent;
+   padding: 25px;
+   font-family: fantasy;
+   font-style: oblique;
+   font-size: 20px;
+   font-weight: bold;
+   color: darkred;
+   letter-spacing: 3px;
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: oblique;
+    color: rgb(255, 0, 0) ;
+    background-color: transparent;
+    border-color: greenyellow;
+
+}
+.btn:active,.btn:hover{
+    background-color: greenyellow;
+}
+@keyframes my-anemi{
+      50%{box-shadow:10px 20px 30px rgb(255, 254, 254);}
+}
+.fe-elnos{
+    
+    padding-left: 110px;
+}
